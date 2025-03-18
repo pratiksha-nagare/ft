@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.wrapper{
+    height: 70%;
+    width: 100%;
+    background-color:#f8f7f4;
+    display: flex;
+     align-items: center;
+    justify-content: end; 
+}
+.first-coloumn{
+    height: 100%;
+    width: 33%;
+    background-color:#f8f7f4;
+  
+}
+.first-coloumn h3{
+    margin-top: 6vw;
+    margin-left: 5vw;
+}
+
+.first-coloumn h4{
+    margin-top: 1.7vw;
+    margin-left: 5vw;
+    font-size: 1vw;
+}
+
+.second-coloumn{
+    height: 100%;
+    width: 33%;
+    background-color:#f8f7f4;
+}
+.second-coloumn h3{
+    margin-top: 6vw;
+    margin-left: 6vw;
+}
+
+.second-coloumn h4{
+    margin-top: 1.7vw;
+    margin-left: 6vw;
+    font-size: 1vw;
+}
+
+.third-coloumn{
+    height: 100%;
+    width: 33%;
+    background-color:#f8f7f4;
+}
+
+.third-coloumn h3{
+    margin-top: 6vw;
+    margin-left: 6vw;
+}
+
+.third-coloumn h4{
+    margin-top: 1.7vw;
+    margin-left: 6vw;
+    font-size: 1vw;
+}
+
+
+
+.four-coloumn{
+    width: 33%;
+    height: 100%;
+    /* background-color:yellow; */
+ 
+
+}
+.icon-1{
+    width: 100%;
+    height: 25%;
+    background-color:#f8f7f4;
+    display: flex;
+}
+.icon-1 h1{
+    margin-top: 5vw;
+    margin-left: 5vw;
+   
+}
+   
+.icon-1 h4{
+    margin-top: 6vw;
+ }
+
+.icon-1 h6{
+    margin-top: 6.2vw;
+ } 
+ 
+.icon-2{
+    width: 100%;
+    height: 40%;
+    background-color:#f8f7f4;
+}
+.icon-2 h5{
+    padding-left: 4vw;
+    margin-bottom: 3vw;
+    margin-top: 2vw;
+}
+.icon-2 p{
+    padding-left: 5vw;
+    padding-top: 1px;
+    font-weight: 600;
+}
+.icon-2 h4{
+    padding-top:1vw;
+    padding-left: 5vw;
+}
+.sub_icons{
+    width: 80%;
+    height: 70%;
+    background-color:#f8f7f4;
+    position: relative;
+
+}
+.sub_icons i{
+    padding-top: 1vw;
+    padding-left: 3vw;
+    position: absolute;
+    top: 6;
+    left:5;
+}
+ 
+
+ 
+.icon-3{
+    width: 100%;
+    height: 15%;
+    background-color:#f8f7f4;
+    display: flex;
+    margin-top: 5vw;
+} 
+.facebook{
+    width: 7%;
+    height: 20%;
+    /* background-color: coral; */
+    border-radius: 50%;
+    margin-top: 2vw;
+    margin-left: 4vw;
+    
+}
+
+.facebook i{
+    padding-left: 4px;
+    font-size: 2vw;
+}
+.camera{
+    width: 8%;
+    height: 20%;
+    /* background-color: aquamarine; */
+    border-radius: 50%;
+    margin-top: 2vw;
+    margin-left: 1vw;
+}
+
+.camera i{
+    padding-left: 8px;
+    font-size: 2vw;
+}
+.pinterest{
+    width: 8%;
+    height: 20%;
+    /* background-color: red; */
+    border-radius: 50%;
+    margin-top:2vw ;
+    margin-left: 1vw;
+}
+.pinterest i{
+    padding-left: 8px;
+    font-size: 2vw;
+}
+
+.twitter{
+    width: 8%;
+    height: 20%;
+    /* background-color:blue; */
+    border-radius: 150%;
+    margin-top: 2vw;
+    margin-left: 1vw;
+}
+.twitter i{
+    padding-left: 8px;
+    font-size: 2vw;
+}
+
+.navigation{
+    height: 10%;
+    width: 100%;
+    background-color:white;
+    margin-left: 3vw;
+      display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin-bottom: 15vw;
+
+}
+
+
+.first-logo{
+    height: 70%;
+    width: 8%;
+    background-color:blue;
+}
+.first-logo{
+    margin-left: 1vw;
+    margin-top: 2vw;
+}
+
+
+
+.second-logo{
+    height: 70%;
+    width: 10%;
+    background-color:pink;
+}
+
+
+.second-logo{
+    margin-left: 1vw;
+    margin-top: 2vw;
+}
+
+.third-logo{
+    height: 70%;
+    width: 10%;
+    background-color:blue;
+}
+
+.third-logo{
+    margin-left: 1vw;
+    margin-top: 2vw;
+}
+
+.four-logo{
+    height: 70%;
+    width: 10%;
+    background-color:violet;
+}
+
+.four-logo{
+    margin-left: 1vw;
+    margin-top: 2vw;
+}
+
+
+.five-logo{
+    height: 50%;
+    width: 10%;
+    background-color:gray;
+}
+
+.five-logo{
+    margin-left: 1vw;
+    margin-top: 2vw;
+}
+
+
+.six-logo{
+    height: 70%;
+    width: 10%;
+    background-color:red;
+}
+
+.six-logo{
+    margin-left: 1vw;
+    margin-top: 2vw;
+}
+
+
+.seven-logo{
+    height: 80%;
+    width: 10%;
+    background-color:gray;
+}
+
+.seven-logo{
+    margin-left: 1vw;
+    margin-top: 2vw;
+}
+
+
+.eight-logo{
+    height: 80%;
+    width: 10%;
+    background-color:black;
+}
+
+.eight-logo{
+    margin-left: 1vw;
+    margin-top: 2vw;
+}
+
+
+.nine-logo{
+    height: 70%;
+    width: 10%;
+    background-color:gray;
+}
+
+.nine-logo{
+    margin-left: 1vw;
+    margin-top: 2vw;
+    width: 5%;
+}
+
+.ten-logo{
+    height: 100%;
+    width: 10%;
+    background-color:purple;
+}
+
+.ten-logo{
+    margin-left:1vw;
+    margin-top: 2vw;
+}
